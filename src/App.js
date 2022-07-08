@@ -1,4 +1,4 @@
-import {HashRouter as Router, Link, 
+import {BrowserRouter as Router, Link, 
   Routes, Route} from 'react-router-dom'
 import './App.css';
 import { H3head, H1head, Navhead, DivHeader } from './app.style';
@@ -10,7 +10,7 @@ import Projects from './pages/Projects';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router >
       <DivHeader> 
       <H1head>HELLO WORLD!</H1head>
       <Navhead>
@@ -19,7 +19,7 @@ function App() {
           </Navhead>
         
         </DivHeader>
-        <Routes>
+        <Routes basename="/mycv">
           <Route path="/" element={<About />} />
           <Route path="/projects" element={<Projects />}>
             <Route path="detail" element={<Search />} />
