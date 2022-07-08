@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Link, 
+import {HashRouter as Router, Link, 
   Routes, Route} from 'react-router-dom'
 import './App.css';
 import { H3head, H1head, Navhead, DivHeader } from './app.style';
