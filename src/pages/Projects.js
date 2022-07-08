@@ -2,16 +2,15 @@ import React from 'react'
 import {Content, Golink, Imgp, Navproject, Pnav, Project} from '../styles/projects.style'
 import  {Dtap} from '../service/service.projects'  
 const Projects = () => {
-Dtap.map(e=>console.log(e))
+
   return (
     <Content>
       
     {Dtap.map((myproject) => (
       
-      <Project>
+      <Project key={myproject.nav}>
        <Golink>
         <p>{myproject.text}</p>
-       
          <Imgp src={myproject.img} width="100px" height="70px"/>
          </Golink>
           <Pnav>
