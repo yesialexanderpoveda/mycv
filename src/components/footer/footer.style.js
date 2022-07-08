@@ -31,7 +31,10 @@ margin-top: 15px;
 `
 
 export const Foores = styled.div`
-
+font-size: 1em;
+letter-spacing: 0.1em;
+margin-right: 18px;
+font-family: 'Bangers', cursive;
 @media (min-width: 790px){
   width: 100%; 
   display: flex;
@@ -88,6 +91,7 @@ border-radius: 4px;
 margin-bottom: 5px;
 width: 250px;
 height: 30px;
+font-family: 'Lobster', cursive;
 
 `
 export const ImgIcons = styled.img`

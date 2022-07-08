@@ -18,6 +18,12 @@ align-items: center;
 
 }
 `
+export const Hhi = styled.h2`
+font-family: 'Lobster', cursive;
+letter-spacing: 0.1em;
+font-weight: lighter;
+
+`
 
 export const ProfileSection = styled.div`
 margin: 10px;
@@ -35,9 +41,9 @@ export const ContentArticle = styled.div`
 width: 80vw;
 margin: 15px;
 font-family: 'Zen Kaku Gothic Antique', sans-serif;
-padding: 10px
-line-height: 22px;
+padding: 10px;
 color: #669BBC;
+
 @media (min-width: 790px) {
   width: 30vw;
   line-height: 25px;
@@ -63,6 +69,16 @@ background-size: 120px 170px;
 position: relative;
 }
 
+`
+
+export const Pcont = styled.p`
+font-size: 16px; 
+line-height: 1.8;
+-moz-transform: skew(0deg, 0.1deg);
+-webkit-transform: skew(0deg, 0.1deg);
+-o-transform: skew(0deg, 0.1deg);
+-ms-transform: skew(0deg, 0.1deg);
+transform: skew(0deg, 0.3deg);
 `
 
 export const ImgPower = styled.img`

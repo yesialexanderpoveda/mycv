@@ -31,7 +31,9 @@ align-items: center;
 text-align: rigth;
 margin-top: 7px;
 padding: 5px;
-color: rgba(102, 155, 188, 1);  
+color: rgba(102, 155, 188, 1);
+font-family: 'Bangers', cursive;
+font-size: 1.2em;  
 
 `
 export const Pnav = styled.p`
@@ -42,6 +44,7 @@ border-radius: 3px;
 margin: 0 20%;
 line-height: 30px;
 text-align: center; 
+font-family: 'Lobster', cursive;
 `
 export const Navproject = styled.a`
 

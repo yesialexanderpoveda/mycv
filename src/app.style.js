@@ -26,7 +26,8 @@ box-shadow: 0px 0.3em 0.3em rgba(0, 0, 0, 0.25);
 `
 
 export const H1head = styled.h1`
-font-family: 'Roboto';
+
+font-family: 'Bangers', cursive;
 font-size: 1.2em;
 font-weight: bolder;
 text-align: center;
@@ -54,17 +55,18 @@ grid-row: 2;
 text-align: center;
 position: relative;
 bottom: 3px;
-
 `
 
 export const H3head = styled.h3`
 text-decoration: none;
 width: min-content;
 list-style: none;
-font-size: 0.9em;
+font-size: 1em;
+letter-spacing: 0.1em;
 margin-right: 18px;
 color: rgba(0, 48, 73);
 font-weight: bold;
+font-family: 'Bangers', cursive;
 
 &:before{
   content: "";
