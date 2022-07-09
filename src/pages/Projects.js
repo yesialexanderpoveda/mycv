@@ -14,7 +14,7 @@ const Projects = () => {
          <Imgp src={myproject.img} width="100px" height="70px"/>
          </Golink>
           <Pnav>
-          <Navproject href={myproject.nav}> Ir a web </Navproject> 
+          <Navproject href={myproject.nav} target="_blank"> Ir a web </Navproject> 
           </Pnav>
         
         <br/>

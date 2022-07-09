@@ -1,4 +1,4 @@
-import myImg from './../assets/hv.png'
+import myImg from './../assets/hv.jpg'
 import styled from "styled-components"
 export const colors ={
 heafoo: '#C1121F' 
