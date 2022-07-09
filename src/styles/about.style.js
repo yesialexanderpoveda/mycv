@@ -32,9 +32,11 @@ text-align: center;
 color: rgba(102, 155, 188, 1);
 -webkit-text-stroke: 0.6px #003049;
 font-family: 'Lobster', cursive;
+box-shadow: 0px 0.3em 0.3em rgba(0, 0, 0, 0.25);
 @media (min-width: 790px){
 position: relative;
 top: 100px;
+
 }
 `
 
