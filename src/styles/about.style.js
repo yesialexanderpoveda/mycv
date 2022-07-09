@@ -22,6 +22,7 @@ export const Hhi = styled.h2`
 font-family: 'Lobster', cursive;
 letter-spacing: 0.1em;
 font-weight: lighter;
+color: #003049;
 
 `
 
@@ -29,7 +30,8 @@ export const ProfileSection = styled.div`
 margin: 10px;
 text-align: center;
 color: rgba(102, 155, 188, 1);
-
+-webkit-text-stroke: 0.6px #003049;
+font-family: 'Lobster', cursive;
 @media (min-width: 790px){
 position: relative;
 top: 100px;
@@ -42,7 +44,7 @@ width: 80vw;
 margin: 15px;
 font-family: 'Zen Kaku Gothic Antique', sans-serif;
 padding: 10px;
-color: #669BBC;
+color: #003049;
 
 @media (min-width: 790px) {
   width: 30vw;
@@ -59,6 +61,7 @@ clip-path: polygon(50% 0%, 100% 4%, 100% 100%, 50% 95%, 0 100%, 0 100%, 0 4%);
 background-blend-mode: darken;
 margin-bottom: 12px;
 background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${myImg});
+filter: saturate(30%);
 background-position: bottom left;
 background-repeat: no-repeat;
 background-size: 110px 140px; 

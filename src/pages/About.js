@@ -14,7 +14,7 @@ function About() {
       <br/>
       <Img />
      <p>Full stack javascript developer</p>
-     <h4>Yesid A. Poveda Y.</h4>
+     <p>Yesid A. Poveda Y.</p>
     </ProfileSection>
 
      <ContentArticle>

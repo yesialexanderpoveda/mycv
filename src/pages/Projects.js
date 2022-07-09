@@ -22,7 +22,7 @@ const Projects = () => {
       </Project>
     ))}
   
- 
+  <br/>
 </Content>
   )
 }

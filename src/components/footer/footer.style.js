@@ -11,7 +11,7 @@ background: ${colors.heafoo};
 width: 100%;
 color: #003049;
 padding-top: 20px;
-
+-webkit-box-shadow: 0px -0.2em 0.4em 0px rgba(0,0,0,0.25);
 `
 export const Fooone = styled.div`
 
@@ -19,6 +19,7 @@ font-size: x-small;
 display: flex;
 justify-content:space-between;
 margin-top: 15px;
+
 &:before{
   content: "";
   position: absolute;
