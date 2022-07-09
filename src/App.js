@@ -19,7 +19,8 @@ function App() {
           </Navhead>
         
         </DivHeader>
-        <Routes basename="/mycv">
+
+        <Routes className="div" basename="/mycv">
           <Route path="/" element={<About />} />
           <Route path="/projects" element={<Projects />}>
             <Route path="detail" element={<Search />} />

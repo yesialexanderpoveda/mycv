@@ -9,6 +9,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+
 @media (min-width: 790px) {
   min-height: 80vh;
   flex-direction: row;
