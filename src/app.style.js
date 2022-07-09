@@ -29,6 +29,8 @@ export const H1head = styled.h1`
 
 font-family: 'Bangers', cursive;
 font-size: 1.2em;
+list-style: none;
+text-decoration: none;
 font-weight: bolder;
 text-align: center;
 -webkit-text-stroke: 0.8px #003049;

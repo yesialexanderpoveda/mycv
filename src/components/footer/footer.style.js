@@ -50,7 +50,6 @@ export const Questions = styled.div`
 
 width: 90%;
 height: 90%
-margin: 0 10%;
 margin-bottom: 10px;
 margin-top: 10px;
 text-align: center; 
@@ -80,11 +79,14 @@ background: rgba(102, 155, 188, 0.8);
 border: 2.5px solid #003049;
 border-radius: 4px;
 margin-bottom: 10px;
-width: 300px;
+width: 265px;
 height: 30px;
+@media (min-width: 790px){
+  width: 300px;
+  
+}
 `
 export const Buttom = styled.button`
-margin: 0 5%;
 background: #003049;
 color: #FDF0D5;
 border: 2.5px solid #003049;

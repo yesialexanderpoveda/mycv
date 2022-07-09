@@ -62,7 +62,7 @@ font-family: 'Lobster', cursive;
 export const Navproject = styled.a`
 
 
-color: #ffffff;
+color: #ddd;
 text-decoration: none;
 $$:link{
     text-decoration: none;

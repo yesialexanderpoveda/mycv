@@ -22,15 +22,16 @@ export const Hhi = styled.h2`
 font-family: 'Lobster', cursive;
 letter-spacing: 0.1em;
 font-weight: lighter;
-color: #003049;
+-webkit-text-stroke: 0.5px #003049;
+color: #669BBC;
 
 `
 
 export const ProfileSection = styled.div`
 margin: 10px;
 text-align: center;
-color: rgba(102, 155, 188, 1);
--webkit-text-stroke: 0.6px #003049;
+color: #ddd;
+-webkit-text-stroke: 0.8px #669BBC;
 font-family: 'Lobster', cursive;
 box-shadow: 0px 0.3em 0.3em rgba(0, 0, 0, 0.25);
 @media (min-width: 790px){
@@ -47,6 +48,7 @@ margin: 15px;
 font-family: 'Zen Kaku Gothic Antique', sans-serif;
 padding: 10px;
 color: #003049;
+text-shadow: 0px 0.3em 0.3em rgba(0, 0, 0, 0.4);
 
 @media (min-width: 790px) {
   width: 30vw;
@@ -56,23 +58,31 @@ color: #003049;
 `
 export const Img = styled.div`
 margin: 0 20%;
-width: 150px;
-height: 120px;
--webkit-clip-path: polygon(50% 0%, 100% 4%, 100% 100%, 50% 95%, 0 100%, 0 100%, 0 4%);
-clip-path: polygon(50% 0%, 100% 4%, 100% 100%, 50% 95%, 0 100%, 0 100%, 0 4%);
+width: 100px;
+height: 100px;
+
 background-blend-mode: darken;
 margin-bottom: 12px;
 background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${myImg});
 filter: saturate(30%);
+border-radius: 5px;
+-webkit-box-shadow: 10px 3px 71px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 3px 71px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 3px 71px 0px rgba(0,0,0,0.75);
 background-position: bottom left;
 background-repeat: no-repeat;
 background-size: 110px 140px; 
+
 @media (min-width: 790px){
 width: 110px;
 height: 150px;
 background-size: 120px 170px;
 position: relative;
 }
+
+`
+export const Pprofile = styled.p`
+
 
 `
 

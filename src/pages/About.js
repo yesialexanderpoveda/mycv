@@ -2,7 +2,7 @@ import React from 'react';
 import {FaAngleRight } from 'react-icons/fa';
 
 /* import {AboutDiv, ContentArticle, ProfileSection, Img, ImgPower} from '../../styles/theme' */
-import { AboutDiv, ContentArticle, ProfileSection, Img, ImgPower, Pcont, Hhi} from '../styles/about.style';
+import { AboutDiv, ContentArticle, ProfileSection, Img, ImgPower, Pcont, Hhi, Pprofile} from '../styles/about.style';
 import power from '.././assets/power.gif'
 function About() {
 
@@ -13,8 +13,8 @@ function About() {
     <ProfileSection>
       <br/>
       <Img />
-     <p>Full stack javascript developer</p>
-     <p>Yesid A. Poveda Y.</p>
+     <Pprofile>Full stack javascript developer</Pprofile>
+     <Pprofile>Yesid A. Poveda Y.</Pprofile>
     </ProfileSection>
 
      <ContentArticle>

@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Router >
       <DivHeader> 
-      <H1head>HELLO WORLD!</H1head>
+      <H1head as={Link} to="/">HELLO WORLD!</H1head>
       <Navhead>
           <H3head as={Link} to="/">Acerca de mi </H3head>
            <H3head as={Link} to="/projects">Proyectos  </H3head>
