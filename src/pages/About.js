@@ -13,7 +13,7 @@ function About() {
     <ProfileSection>
       <br/>
       <Img />
-     <Pprofile>Full stack javascript developer</Pprofile>
+     <Pprofile><span  translate="no">Full stack javascript developer</span></Pprofile>
      <Pprofile>Yesid A. Poveda Y.</Pprofile>
     </ProfileSection>
 
@@ -23,7 +23,7 @@ function About() {
       <Pcont>
       Terminar un proyecto y llevarlo al mundo de los expertos es intentar encontrar
       el ego invisible y el alma corroída de humanidad, de quienes obvian lo que el proyecto ignora, 
-      es  presentar a la luz las sombras del código que necesita ser factorizado, es  el final de una 
+      es  presentar a la luz las sombras el código que necesita ser factorizado, es  el final de una 
       obra y el comienzo de otra. 
       </Pcont>
       <br/>

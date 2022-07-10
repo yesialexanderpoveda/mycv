@@ -1,10 +1,12 @@
 import {HashRouter as Router, Link, 
   Routes, Route} from 'react-router-dom'
+
 import './App.css';
 import { H3head, H1head, Navhead, DivHeader } from './app.style';
 
 import About from './pages/About';
 import Search from './components/Detail';
+import Language from './components/languague/language';
 import Footer from './components/footer/footer';  
 import Projects from './pages/Projects';
 function App() {
@@ -19,7 +21,8 @@ function App() {
           </Navhead>
         
         </DivHeader>
-
+      <div>
+        <Language/>
         <Routes className="div" basename="/mycv">
           <Route path="/" element={<About />} />
           <Route path="/projects" element={<Projects />}>
@@ -27,7 +30,9 @@ function App() {
       
           </Route>
         </Routes>
+      </div>
      </Router>
+
      <Footer></Footer>
     </div>
   );

@@ -52,6 +52,7 @@ width: 90%;
 height: 90%
 margin-bottom: 10px;
 margin-top: 10px;
+margin-left: 15px;
 text-align: center; 
 @media (min-width: 790px){
   width: 30vw;

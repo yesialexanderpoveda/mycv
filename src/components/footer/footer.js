@@ -41,7 +41,6 @@ function Footer() {
     <Foohead>
       <Foores>
         <Questions>
-          <br />
           <p>
             ¿Quieres hacerme una cosulta? ¿tienes alguna duda al
             respecto?
