@@ -1,6 +1,7 @@
-import React, { useRef } from "react";
+import React, { useRef, useContext } from "react";
 import emailjs from "@emailjs/browser";
 import { useForm } from "react-hook-form";
+import { FormattedMessage } from "react-intl";
 import {
   Foohead,
   Foores,
@@ -14,7 +15,12 @@ import {
 import github from "../../assets/github.png";
 import linkedin from "../../assets/linkedin.png";
 import twitter from "../../assets/twitter.png";
+// language
+import {langContext} from '../../context/langContext'
 function Footer() {
+
+  const language = useContext(langContext);
+  console.log(language)
   const { register, formState: {errors}, handleSubmit } = useForm();
 
   const form = useRef();
@@ -42,13 +48,21 @@ function Footer() {
       <Foores>
         <Questions>
           <p>
-            ¿Quieres hacerme una cosulta? ¿tienes alguna duda al
-            respecto?
+            <FormattedMessage
+            id="footer.pone"
+            defaultMessage="¿Quieres hacerme una cosulta? ¿tienes alguna duda al
+            respecto?"
+            />
+            
           </p>
           <br />
           <p>
-            Envíame un mensaje y llena el formulario. Tan pronto pueda atenderé
-            la solicitud
+          <FormattedMessage
+            id="footer.ptwo"
+            defaultMessage="Envíame un mensaje y llena el formulario. Tan pronto pueda atenderé
+            la solicitud"
+            />
+            
           </p>
           <br />
         </Questions>
