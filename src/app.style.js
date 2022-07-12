@@ -23,6 +23,7 @@ grid-template-columns: 1fr 30% 35%
 grid-template-rows: 50% 50%;
 box-shadow: 0px 0.3em 0.3em rgba(0, 0, 0, 0.25);
 
+
 `
 
 export const H1head = styled.h1`
@@ -36,6 +37,7 @@ text-align: center;
 -webkit-text-stroke: 0.8px #003049;
 color: #669BBC;
 text-shadow: 0px 0.3em 0.3em rgba(0, 0, 0, 0.4);
+filter: drop-shadow(0 0 0.05em #669BBC);
 grid-column: 2/3;
 position: relative;
 bottom: -10px;
@@ -69,6 +71,9 @@ margin-right: 18px;
 color: rgba(0, 48, 73);
 font-weight: bold;
 font-family: 'Bangers', cursive;
+text-shadow: 0px 0.3em 0.3em rgba(0, 0, 0, 0.4);
+filter: drop-shadow(0 0 0.1em #ddd);
+
 
 &:before{
   content: "";

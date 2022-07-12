@@ -1,5 +1,26 @@
 {
-    "app.welcome": "Bienvenido, {name}",
-    "footer.pone": "español",
-    "footer.ptwo": "españols"
+    "header.nav": "Perfil",
+    "header.navone": "Proyectos",
+    
+    "profile.hi":"Hola mundo",
+    "profile.pone":"Terminar un proyecto y llevarlo al mundo de los expertos es intentar encontrar el ego invisible y el alma corroída de humanidad; de quienes conocen lo que el proyecto ignora. Terminar un proyecto es presentar a la luz, sombras de código que necesita ser factorizado por el comentario de los usuarios, es  el final de una obra y el comienzo de otra.",
+    "profile.ptwo":"Me presento, mi nombre es Yesid, mis amig@s me dicen Yara o Yapy, nací en Bogotá Colombia, me gusta la poesía, me gusta viajar e interrelacionarme por medio de diferentes lenguajes;  siempre y cuando tenga la capacidad de comprender y responder a dicho lenguaje. Me gusta construir aprendizaje a partir de la interacción de comunidades open source y de desarrollo de software. Actualmente, programo para el entorno web, más específicamente front-end y back-end relacionado con javascript,",
+    "profile.strong": "dirijo un proyecto Open-Source",
+    "profile.pthree": "aprendo sobre web3 y me interesa colaborar y trabajar en proyectos T.I. donde pueda hacer uso de mis habilidades",
+    "profile.pfour": "Alguna tecnologias con las que he trabajado recientemente:",
+
+
+    "projects.go":"Ir a web",
+
+
+    "footer.pone": "¿Quieres hacerme una cosulta? ¿tienes alguna duda al respecto?",
+    "footer.ptwo": "Envíame un mensaje y llena el formulario. Tan pronto pueda atenderé la solicitud",
+    "footer.name":"nombre",
+    "footer.e-mail":"correo",
+    "footer.message":"mensage",
+    "footer.namev":"por favor escriba su nombre",
+    "footer.e-mailv":"por favor escriba bien su correo",
+    "footer.messagev":"Por favor escriba su mensaje",
+    "footer.buttom": "enviar",
+    "footer.reserved": "todos los derechos reservados"
 }

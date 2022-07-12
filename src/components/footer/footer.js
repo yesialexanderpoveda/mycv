@@ -11,16 +11,18 @@ import {
   Buttom,
   Fooone,
   ImgIcons,
+  Pform,
 } from "./footer.style";
 import github from "../../assets/github.png";
 import linkedin from "../../assets/linkedin.png";
 import twitter from "../../assets/twitter.png";
 // language
-import {langContext} from '../../context/langContext'
+
 function Footer() {
 
-  const language = useContext(langContext);
-  console.log(language)
+ 
+
+
   const { register, formState: {errors}, handleSubmit } = useForm();
 
   const form = useRef();
@@ -47,42 +49,71 @@ function Footer() {
     <Foohead>
       <Foores>
         <Questions>
-          <p>
+          <Pform>
             <FormattedMessage
             id="footer.pone"
-            defaultMessage="¿Quieres hacerme una cosulta? ¿tienes alguna duda al
-            respecto?"
+            defaultMessage="Do you want to ask me a question? do you have any doubt about it?"
             />
             
-          </p>
+          </Pform>
           <br />
-          <p>
+          <Pform>
           <FormattedMessage
             id="footer.ptwo"
-            defaultMessage="Envíame un mensaje y llena el formulario. Tan pronto pueda atenderé
-            la solicitud"
+            defaultMessage="Send me a message and fill out the form. As soon as I can I will answer your request"
             />
             
-          </p>
+          </Pform>
           <br />
         </Questions>
 
         <Form ref={form} onSubmit={handleSubmit(sendemail)}>
-          <label>Nombre</label>
+          <label>
+          <FormattedMessage
+                id="footer.name"
+                defaultMessage="name"
+              />
+          </label>
           <Input type="text" {...register("name",{required: true})}></Input>
-          {errors.name?.type === "required" && <p>por favor escriba su nombre</p>}
-          <label>Correo</label>
+          {errors.name?.type === "required" && 
+              <FormattedMessage
+                id="footer.namev"
+                defaultMessage="please enter your name"
+              />
+             }
+          <label>  <FormattedMessage
+                id="footer.e-mail"
+                defaultMessage="e-mail"
+              ></FormattedMessage></label>
           <Input type="text" {...register("user_email", {pattern: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/})}></Input>
-          {errors.user_email?.type  === "pattern" && <p>por favor escriba bien su correo</p>}
-          <label>Mensaje</label>
+          {errors.user_email?.type  === "pattern" &&  <FormattedMessage
+                id="footer.e-mailv"
+                defaultMessage="please enter your email address correctly"
+              ></FormattedMessage>
+          }
+          <label>
+          <FormattedMessage
+                id="footer.message"
+                defaultMessage="message"
+              />
+          </label>
           <Input type="text" {...register("message",{required: true})}></Input>
-          {errors.message?.type === "required" && <p>por favor escriba su mesage</p>}
+          {errors.message?.type === "required" && <FormattedMessage
+                id="footer.messagev"
+                defaultMessage="please write your message"
+              />}
 
-          <Buttom type="submit" value="Send">Enviar</Buttom>
+          <Buttom type="submit" value="Send">  <FormattedMessage
+                id="footer.buttom"
+                defaultMessage="send"
+              /></Buttom>
         </Form>
       </Foores>
       <Fooone>
-        <p>© 2022 todos los derechos reservados - yapy</p>
+        <p>© 2022 <FormattedMessage
+                id="footer.reserved"
+                defaultMessage="all rights reserved"
+              /> - yapy</p>
         <div>
           <a href="https://twitter.com/yapyDev"><ImgIcons src={twitter} /></a> 
           <a href="https://github.com/yesialexanderpoveda"><ImgIcons src={github} /></a>

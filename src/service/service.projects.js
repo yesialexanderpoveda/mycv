@@ -8,12 +8,12 @@ import yoursite from ".././assets/img/yoursite.png"
 
 export const Dtap = [
   
-  {nav:  "https://bitacorablog.netlify.app/", text: "Bitácora con temas relacionados a tecnología", img: `${blog}`}, 
-  {nav: "https://petscar.netlify.app/", text: "Cosumo de catApi y dogApi filtrando según raza y mascota", img: `${pets}` },
-  {nav: "https://meanyapy.netlify.app/", text: "Crud mean para agregar características de algun producto", img: `${mean}`},  
-  {nav:"#1", text: "Pretende generar rentabilidad en los usuarios de apuestas deportivas", img: `${likelihood}`}, 
-  {nav:"#2", text: "Inmediatamente empezar a chatear con quien se encuentre en linea ", img: `${chatNow}`}, 
-  {nav:"#3", text: "Escoger la reseta mas favorable para cumplir con una dieta en específico", img: `${healthy}`}, 
-  {nav:"https://www.fullhd.wtf/", text: "Descripciones y otras caracterizticas de algunos animes y películas ", img: `${yoursite}`}
+  {nav:  "https://www.fullhd.wtf/", text: "Descriptions and other characteristics of some anime and films", img: `${yoursite}`}, 
+  {nav: "https://bitacorablog.netlify.app/", text: "Blog with topics related to technology", img: `${blog}` },
+  {nav: "https://meanyapy.netlify.app/", text: "catApi and dogApi consumption filtering by breed and pet", img: `${pets}`},  
+  {nav:"https://meanyapy.netlify.app/", text: "Crud mean to add product features", img: `${mean}`}, 
+  {nav:"https://www.3cx.es/chat-en-vivo/", text: "Immediately start chatting with whoever is online ", img: `${chatNow}`}, 
+  {nav:"https://www.who.int/es", text: "Choose the most favorable recipe to comply with a specific diet.", img: `${healthy}`}, 
+  {nav:"https://www.bbc.com/mundo/noticias-57311104", text: "Aims to generate profitability for sports betting users", img: `${likelihood}`}
   
 ] 

@@ -1,5 +1,27 @@
 {
-    "app.welcome": "Welcome {name}",
-    "footer.pone": "english",
-    "footer.ptwo": "englishs"
+    "header.nav": "profile",
+    "header.navone": "projects",
+
+
+    "profile.hi":"Hello World",
+    "profile.pone":"To finish a project and take it to the world of experts is to try to find the invisible ego and the corroded soul of humanity; of those who know what the project ignores. Finishing a project is presenting to the light, shadows of code that needs to be factored by the feedback of users, it is the end of a work and the beginning of another.",
+    "profile.ptwo":"I introduce myself, my name is Yesid, my friends call me Yara or Yapy, I was born in Bogota Colombia, I like poetry, I like to travel and interrelate through different languages; as long as I have the ability to understand and respond to that language. I like to build learning from the interaction of open source and software development communities. Currently, I program for the web environment, more specifically front-end and back-end related to javascript,",
+    "profile.strong": "I manage an open source project",
+    "profile.pthree": "I am learning about web3 and I am interested in collaborating and working on I.T. projects where I can make use of my skills.",
+    "profile.pfour": "Some of the technologies I have worked with recently:",
+
+    
+    "projects.go":"Go to web",
+
+    
+    "footer.pone": "Do you want to ask me a question? do you have any doubt about it?",
+    "footer.ptwo": "Send me a message and fill out the form. As soon as I can I will answer your request",
+    "footer.name":"name",
+    "footer.e-mail":"e-mail",
+    "footer.message":"message",
+    "footer.namev":"please enter your name",
+    "footer.e-mailv":"please enter your email address correctly",
+    "footer.messagev":"please write your message",
+    "footer.buttom": "send",
+    "footer.reserved": "all rights reserved"
 }

@@ -2,15 +2,18 @@ import React, { useState } from "react";
 import {IntlProvider} from "react-intl";
 import MessageEs from "../lang/es-CO.json";
 import MessageEn from "../lang/en-US.json";
-import MessageDo from "../lang/do-DO.json";
+import MessageDo from "../lang/de-DE.json";
 
 const langContext = React.createContext();
 const LangProvider = ({ children }) => {
+
   const [messages, setMessages] = useState(MessageEn);
   const [locale, setLocate] = useState("en-US");
 
   const setlanguage = (language) => {
+  
     console.log("change language to", language);
+  
     switch (language) {
       case "es-CO":
         setMessages(MessageEs);
@@ -20,9 +23,9 @@ const LangProvider = ({ children }) => {
         setMessages(MessageEn);
         setLocate("en-US");
         break;
-      case "do-DO":
+      case "de-DE":
         setMessages(MessageDo);
-        setLocate("do-DO");
+        setLocate("de-DE");
         break;
       default:
         setMessages(MessageEn);
@@ -30,6 +33,7 @@ const LangProvider = ({ children }) => {
         break; 
     }
   };
+  
   return (
     <langContext.Provider value={{ setlanguage: setlanguage }}>
       <IntlProvider locale={locale} messages={messages}>

@@ -1,14 +1,17 @@
-import myImg from './../assets/hv.jpg'
+import myImg from './../assets/hv.gif'
 import styled from "styled-components"
 export const colors ={
 heafoo: '#C1121F' 
 }
 export const AboutDiv = styled.div`
 min-height: 90vh;
+margin-top: 50px;
+
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+filter: drop-shadow(0 0 0.1em #669BBC);
 
 @media (min-width: 790px) {
   min-height: 80vh;
@@ -31,6 +34,7 @@ color: #669BBC;
 export const ProfileSection = styled.div`
 margin: 10px;
 text-align: center;
+padding: 1.5em;
 color: #ddd;
 -webkit-text-stroke: 0.8px #669BBC;
 font-family: 'Lobster', cursive;
@@ -59,29 +63,28 @@ text-shadow: 0px 0.3em 0.3em rgba(0, 0, 0, 0.4);
 `
 export const Img = styled.div`
 margin: 0 20%;
-width: 100px;
-height: 100px;
-
+width: 120px;
+height: 130px;
 background-blend-mode: darken;
 margin-bottom: 12px;
-background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${myImg});
-filter: saturate(30%);
+background-image: url(${myImg});
+filter: saturate(55%);
 border-radius: 5px;
 -webkit-box-shadow: 11px 14px 16px -2px rgba(0,0,0,0.69);
 background-position: bottom left;
 background-repeat: no-repeat;
-background-size: 110px 140px; 
+background-size: 120px 130px; 
 
 @media (min-width: 790px){
-width: 110px;
+width: 120px;
 height: 150px;
-background-size: 120px 170px;
+background-size: 125px 150px;
 position: relative;
 }
 
 `
 export const Pprofile = styled.p`
-
+filter: drop-shadow(0 0 0.05em #C1121F);
 
 `
 
@@ -93,10 +96,12 @@ line-height: 1.8;
 -o-transform: skew(0deg, 0.1deg);
 -ms-transform: skew(0deg, 0.1deg);
 transform: skew(0deg, 0.3deg);
+
 `
 
 export const ImgPower = styled.img`
 width: 100%;
 margin-top: 20px;
 border-radius: 10px;
+filter: saturate(60%);
 `

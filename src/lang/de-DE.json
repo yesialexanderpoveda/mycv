@@ -1,0 +1,28 @@
+{
+    "header.nav": "Profil",
+    "header.navone": "Projekte",
+    
+    "profile.hi":"Hallo Welt",
+    "profile.pone":"Ein Projekt zu beenden und es in die Welt der Experten zu bringen, bedeutet, zu versuchen, das unsichtbare Ego und die korrodierte Seele der Menschheit zu finden; von denen, die wissen, was das Projekt ignoriert. Das Abschließen eines Projekts ist das Präsentieren von Schatten, Schatten des Codes, die durch das Feedback der Benutzer berücksichtigt werden müssen, es ist das Ende einer Arbeit und der Beginn eines anderen.",
+    "profile.ptwo":"Ich stelle mich vor, mein Name ist Yesid, meine Freunde nennen mich Yara oder Yapy, ich wurde in Bogotá, Kolumbien, geboren, ich mag Poesie, ich reise gerne und interagiere mit verschiedenen Sprachen, solange ich die Fähigkeit habe, diese Sprache zu verstehen und darauf zu reagieren. Ich möchte aus der Interaktion von Open-Source- und Softwareentwicklungsgemeinschaften lernen. Derzeit programmiere ich für die Web-Umgebung, genauer gesagt für Front-End und Back-End im Zusammenhang mit Javascript,",
+    "profile.strong": "Ich leite ein Open-Source-Projekt",
+    "profile.pthree": "Ich lerne gerade etwas über web3 und bin daran interessiert, an I.T.-Projekten mitzuarbeiten, bei denen ich meine Fähigkeiten einsetzen kann.",
+    "profile.pfour": "Einige der Technologien, mit denen ich in letzter Zeit gearbeitet habe:",
+
+
+    "projects.go":"Zum Web gehen",
+
+
+
+    "footer.pone": "Möchten Sie mir eine Frage stellen oder haben Sie irgendwelche Zweifel daran?",
+    "footer.ptwo": "Senden Sie mir eine Nachricht und füllen Sie das Formular aus. Sobald ich kann, werde ich Ihre Anfrage beantworten.",
+    "footer.name":"name",
+    "footer.e-mail":"E-mail",
+    "footer.message":"Nachricht",
+    "footer.namev":"Bitte geben Sie Ihren Namen ein",
+    "footer.e-mailv":"Bitte geben Sie Ihre E-Mail-Adresse korrekt ein",
+    "footer.messagev":"Bitte geben Sie Ihre Nachricht",
+    "footer.buttom": "senden",
+    "footer.reserved": "alle Rechte vorbehalten"
+
+}
