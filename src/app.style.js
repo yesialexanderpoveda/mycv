@@ -16,13 +16,14 @@ const titleAnimation = keyframes`
 
 
 export const DivHeader = styled.div`
-background: ${colors.heafoo};
+
 height: 100%;
 display: grid;
 grid-template-columns: 1fr 30% 35%
 grid-template-rows: 50% 50%;
-box-shadow: 0px 0.3em 0.3em rgba(0, 0, 0, 0.25);
-
+box-shadow: 0px 0.2em 0.2em rgba(0, 0, 0, 0.20);
+padding-bottom: 0.25em;
+padding-top: 0.25em;
 
 `
 
@@ -71,7 +72,7 @@ margin-right: 18px;
 color: rgba(0, 48, 73);
 font-weight: bold;
 font-family: 'Bangers', cursive;
-text-shadow: 0px 0.3em 0.3em rgba(0, 0, 0, 0.4);
+text-shadow: 0px 0.2em 0.2em rgba(0, 0, 0, 0.4);
 filter: drop-shadow(0 0 0.1em #ddd);
 
 
@@ -81,7 +82,7 @@ filter: drop-shadow(0 0 0.1em #ddd);
   width: 0px;
   height: 4px;
   bottom: -3px;
-  background: #780000;
+  background: #003049;
   
 }
 &:hover:before{

@@ -32,7 +32,7 @@ object-fit: fill;
 border-radius: 5px;
 
 filter: saturate(50%);
--webkit-box-shadow: 11px 14px 16px -2px rgba(0,0,0,0.69);
+-webkit-box-shadow: 7px 10px 12px -1px rgba(0,0,0,0.69);
 &:hover{
     filter: sepia(30%);
     

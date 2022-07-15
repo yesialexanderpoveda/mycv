@@ -7,7 +7,7 @@ export const Foohead = styled.div`
 export const colors ={
 heafoo: '#C1121F' 
 }
-background: ${colors.heafoo}; 
+
 width: 100%;
 color: #003049;
 padding-top: 20px;
@@ -125,6 +125,6 @@ line-height: 1.8;
 -ms-transform: skew(0deg, 0.1deg);
 transform: skew(0deg, 0.3deg);
 
-text-shadow: 0px 0.3em 0.3em rgba(0, 0, 0, 0.4);
+text-shadow: 0px 0.2em 0.2em rgba(0, 0, 0, 0.4);
 filter: drop-shadow(0 0 0.05em #ddd);
 `

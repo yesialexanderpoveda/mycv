@@ -1,6 +1,6 @@
 import React from 'react';
 import { FormattedMessage } from "react-intl";
-import {FaAngleRight } from 'react-icons/fa';
+import {FaAngleRight, FaHackerrank, FaCodepen, FaCodeBranch, FaCode, FaCoins } from 'react-icons/fa';
 
 /* import {AboutDiv, ContentArticle, ProfileSection, Img, ImgPower} from '../../styles/theme' */
 import { AboutDiv, ContentArticle, ProfileSection, Img, ImgPower, Pcont, Hhi, Pprofile} from '../styles/about.style';
@@ -11,6 +11,7 @@ function About() {
   return (
     
      <AboutDiv>
+     
     <ProfileSection>
       <br/>
       <Img />
@@ -57,8 +58,14 @@ function About() {
       <Pcont  translate="no"><span><FaAngleRight /> <b>Diseño:  </b> </span> Sass, Figma, Gimp, Css </Pcont>  
       <Pcont  translate="no"><span><FaAngleRight /> <b>Bases de datos:  </b> </span> Mysql, Mongo, Redis, ORM </Pcont>  
       <Pcont  translate="no"><span><FaAngleRight /> <b>DevOps:  </b> </span> Docker </Pcont> 
-      <ImgPower src={power} />
+     
+      <FaHackerrank/>
+      <FaCodepen/>
+      <FaCodeBranch/>
+      <FaCode/>
+      <FaCoins/>
       </ContentArticle>
+     
       <br/>
       <br/>
       </AboutDiv>

@@ -26,8 +26,8 @@ export const Hhi = styled.h2`
 font-family: 'Lobster', cursive;
 letter-spacing: 0.1em;
 font-weight: lighter;
--webkit-text-stroke: 0.5px #003049;
-color: #669BBC;
+-webkit-text-stroke: 0.3px #669BBC;
+color: #003049;
 
 `
 
@@ -35,8 +35,6 @@ export const ProfileSection = styled.div`
 margin: 10px;
 text-align: center;
 padding: 1.5em;
-color: #ddd;
--webkit-text-stroke: 0.8px #669BBC;
 font-family: 'Lobster', cursive;
 box-shadow: 0px 0.3em 0.3em rgba(0, 0, 0, 0.25);
 @media (min-width: 790px){
@@ -53,8 +51,7 @@ margin: 15px;
 font-family: 'Zen Kaku Gothic Antique', sans-serif;
 padding: 10px;
 color: #003049;
-text-shadow: 0px 0.3em 0.3em rgba(0, 0, 0, 0.4);
-
+text-shadow: 0px 0.05em 0.05em rgba(0, 0, 0, 0.2);
 @media (min-width: 790px) {
   width: 30vw;
   line-height: 25px;
@@ -70,7 +67,7 @@ margin-bottom: 12px;
 background-image: url(${myImg});
 filter: saturate(55%);
 border-radius: 5px;
--webkit-box-shadow: 11px 14px 16px -2px rgba(0,0,0,0.69);
+-webkit-box-shadow: 7px 10px 12px -1px rgba(0,0,0,0.69);
 background-position: bottom left;
 background-repeat: no-repeat;
 background-size: 120px 130px; 
@@ -84,7 +81,9 @@ position: relative;
 
 `
 export const Pprofile = styled.p`
-filter: drop-shadow(0 0 0.05em #C1121F);
+
+color: #003049;
+
 
 `
 
