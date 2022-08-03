@@ -51,7 +51,7 @@ margin: 15px;
 font-family: 'Zen Kaku Gothic Antique', sans-serif;
 padding: 10px;
 color: #003049;
-text-shadow: 0px 0.05em 0.05em rgba(0, 0, 0, 0.2);
+text-shadow: 0px 0.02em 0.02em rgba(0, 0, 0, 0.2);
 @media (min-width: 790px) {
   width: 30vw;
   line-height: 25px;
